@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #273746;	
+    }
+	
+    .navbar-brand{
+     padding: 6px;	
+    }
+
+    .jumbotron{
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #EAEDED ;
+      height: 430px;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #273746;
+      padding: 10px;
+      color: white;
+    }
+
+    span::before {
+            content: "Welcome To Edu Vaani";
+            animation: animate infinite 7s;
+        }
+
+     @keyframes animate {
+  
+        0% {
+            content: "Welcome To Edu Vaani";
+        }
+  
+        20% {
+            content: "Learn Python";
+        }
+  
+        40% {
+            content: "Automation";
+        }
+
+	60% {
+            content: "Autosys";
+        }
+        80% {
+            content: "and other awesome programming concepts with me :)";
+        }
+    }
+
+  h2 {
+  color: black;
+   }
+   
+  .bold_text {
+    font-weight: bold;
+  }
+
+  h4 {
+  color: #808080;
+  } 
+
+  ul li:hover {background: #B22222;}
+
+ .btn-primary:hover {
+    background-color: red !important;
+  }
+
+
+/* testing */
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+</style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://youtube.com/channel/UCdyoz-cx4uHFyy-wFpTRrTQ"><img src="myimage1.jpg" class="img-circle" alt="Cinque Terre" width="40" height="40"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="https://youtube.com/channel/UCdyoz-cx4uHFyy-wFpTRrTQ"><font color="white" size="4px"><strong>Home</strong></font></a></li>
+      <li><a href="https://www.youtube.com/channel/UCdyoz-cx4uHFyy-wFpTRrTQ/videos"><font color="white" size="4px"><strong>Videos</strong></font></a></li>
+      <li><a href="https://forms.gle/YcQ8RebwDGMoUkVB7"><font color="white" size="4px"><strong>Contact Me</strong></font></a></li>
+    </ul>
+    <form class="navbar-form navbar-right" action="index.html">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</nav>
+<div class="jumbotron">
+  <div class="container text-center">
+<center>
+  <img src="myimage1.jpg" class="img-circle" alt="Cinque Terre" width="120" height="120">
+   <h2 class= bold_text> <span> </span></h2> 
+
+       <h4 color ><center>
+	<br>Browse courses and find out the best course for you. Its free!</br>
+	edu vaani is my attempt to teach basics and those coding techniques to people in short time which took me ages to learn</h4>
+       </center>
+<br></br>
+  <a style="font-size:13pt;background-color:#FF6347;border: none"  class="btn btn-primary" href="autosys.html" role="button">Autosys Course</a>
+  <a style="font-size:13pt;background-color:#228B22;border: none;" class="btn btn-primary" href="https://www.youtube.com/channel/UCdyoz-cx4uHFyy-wFpTRrTQ/playlists" role="button">Browse Video Tutorials</a>
+  <a style="font-size:13pt;background-color:#4169E1;border: none;" class="btn btn-primary" href="https://forms.gle/YcQ8RebwDGMoUkVB7" role="button">Contact Me</a>
+</center>
+
+  </div>
+</div>
+
+<br></br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+	  <a style="text-decoration:none" href="https://youtube.com/playlist?list=PLHwLcLHMgaox2BLKXlSsLV6Zs0DcxitM6" target="_blank">
+          <img src="salarystructure.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+	    <center>	
+	    <strong>
+     	    <h3 >Salary Structure Videos</h3>
+            <p class="text-dark" >If you are willing to know about salary structures of different oraganizations then you are looking at right place.<p>
+	    </strong>
+	 
+	    </center>
+          </div>
+      </div>
+</div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+	  <a style="text-decoration:none" href="autosys.html" target="_blank">
+          <img src="autosys.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+	    <center>	
+	    <strong>
+     	    <h3 >Autosys Course</h3>
+            <p class="text-dark">If you are a professional, this course will help you in becoming handy on Autosys with easy tutorials.</p>
+	    </strong>
+			
+	    </center>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+          <img src="jobinterviews.jpg" alt="Fjords" style="width:100%">
+	  <a style="text-decoration:none" href="https://youtube.com/playlist?list=PLHwLcLHMgaoyu_u4pIY_zCRIpqcdnJntx" target="_blank">
+          <div class="caption">
+	    <center>	
+	    <strong>
+     	    <h3 >Interview Preparation</h3>
+            <p class="text-dark">Here you will see videos of interview experiences, asked questions in interviews and many more.</p>
+	    </strong>
+
+	    </center>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br></br>
+<br></br>
+
+
+<!-- Section: Basic example -->
+<section class="">
+
+  <footer class="text-center text-white" style="background-color: #d8d8d8d3;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+           class="btn btn-link btn-floating btn-lg text-dark m-1"
+           href="https://www.facebook.com/eduvaani"
+           role="button"
+           data-mdb-ripple-color="dark"
+           ><i class="icon ion-social-facebook"></i
+          ></a>
+
+        <!-- Twitter -->
+        <a
+           class="btn btn-link btn-floating btn-lg text-dark m-1"
+           href="https://www.google.com/"
+           role="button"
+           data-mdb-ripple-color="dark"
+           ><i class="icon ion-social-google"></i
+          ></a>
+
+        <!-- Google -->
+        <a
+           class="btn btn-link btn-floating btn-lg text-dark m-1"
+           href="https://instagram.com/eduvaani?utm_medium=copy_link"
+           role="button"
+           data-mdb-ripple-color="dark"
+           ><i class="icon ion-social-instagram"></i
+          ></a>
+
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright
+      <a class="text-dark" href="">designed by eduvaani</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+</html>
